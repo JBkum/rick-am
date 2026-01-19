@@ -25,8 +25,9 @@ Sigue estos pasos para ejecutar el proyecto localmente.
    npm run dev
    
 3.Build de producción:
-   ```bash
    npm run build
+
+   
 [!TIP] Puedes ejecutar el linter o el chequeo de tipos con npm run lint y npm run typecheck.
 
 El proyecto sigue una estructura modular para facilitar el mantenimiento y la escalabilidad:
