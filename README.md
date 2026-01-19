@@ -37,7 +37,7 @@ services/,Capa de datos centralizada para llamadas HTTP y manejo de errores.
 hooks/,"Lógica de negocio extraída en hooks (manejo de loading, error, data)."
 utils/,Funciones de ayuda y persistencia en localStorage.
 
-### **Rutas Principales**
+### Rutas Principales
 La aplicación utiliza sincronización de estado con la URL para permitir compartir búsquedas específicas:
 
 / o /characters : Lista principal con filtros y paginación.
@@ -48,7 +48,7 @@ La aplicación utiliza sincronización de estado con la URL para permitir compar
 
 /favoritos : Colección guardada por el usuario.
 
-### **Decisiones Técnicas Clave**
+### Decisiones Técnicas Clave
 
 Optimización de Red: Implementación de Batch fetching para episodios (/episode/1,2,3) reduciendo drásticamente los round-trips al servidor.
 
