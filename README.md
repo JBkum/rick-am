@@ -75,3 +75,6 @@ feat(list): Añadir lista con filtros, debounce y sincronización de URL.
 fix(links): Corregir navegación y manejo de teclado.
 
 docs: Actualizar documentación del README.
+
+### Mejorar
+**Megustaria mejorar las estructuras de archivos y hacer funciones que me permitan tener un mejor manejo o reutilizacion de codigo y poder colocarle un buen estilo bonito y funcional**
